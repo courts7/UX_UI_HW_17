@@ -1,26 +1,44 @@
-    .nav {
+    .inline-block {
     display:inline-block;
     vertical-align: top;
-    width: 73%;
-    padding: 1%;
     }
 
     .logo {
-    width: 23px;;
-   padding:1%;
+    display: inline-block;
+    vertical-align:top;
+    width: 23px;
+    text-align:left;
+    }
+    
+    .nav {
+        display: inline-block;
+        width: 73%;
+        padding: 1%;
+        vertical-align:left;
+    }
+    
+    nav ul {
+        background-color: #373738;
+        vertical-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
-    ul li {
-    width: 50%;
-    margin-left: auto;
-}
- 
-.herolmg {
+    .herolmg {
     height: 600px;
     padding: 25px;
-}
+    vertical-align: center;
+    }
+   
+    .content {
+    width: 500px;
+    margin: 0 auto;
+    }
 
-.footer {
+footer ul {
+    background-color: #373738;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: center;
+    padding-left: 30px;
+    padding-right: 30px ;
     }
