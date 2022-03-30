@@ -1,0 +1,26 @@
+    .nav {
+    display:inline-block;
+    vertical-align: top;
+    width: 73%;
+    padding: 1%;
+    }
+
+    .logo {
+    width: 23px;;
+   padding:1%;
+    }
+
+    ul li {
+    width: 50%;
+    margin-left: auto;
+}
+ 
+.herolmg {
+    height: 600px;
+    padding: 25px;
+}
+
+.footer {
+    display: inline-block;
+    vertical-align: top;
+    }
