@@ -1,26 +1,30 @@
 body{
     margin: 0%;
-
+    vertical-align: top;
 }
 
 header {
         list-style: none;
         background-color: #373738;
         vertical-align: top;
-        padding: 5px;
+        padding: 20px 5px 5px 5px;
+        font-family: Fira Sans, sans-serif;
     }
 header ul {
         display: inline-block;
         padding: 20px 10px 20px 20px;
         vertical-align: top;
+        margin: 10px;
     }
 
     header li {
         display:inline-block;
         padding: 5px 10px 10px 10px;
-    }
+        margin: 5px;
+        margin-left: 5px;
 
-    header p  {
+    }
+header p  {
         display: inline-block;
         vertical-align: top;
     }
@@ -32,41 +36,50 @@ header ul {
  }
     
 .herolmg {
-    padding: 300px;
+    vertical-align:center;
+    padding: 600px;
     background-color:gray;
     vertical-align: center;
-    }
+    margin: 0 auto;
+      }
+
 .content {
     max-width: 300px;
-        margin: 0;
+        margin: 0 auto;
         text-align:center;
-        padding: 50px;
+        padding:10px;
+        font-family: fira sans, sans-serif;
+        margin-top: -400px;
         }
 
 h1 {
         display: inline-block;
         vertical-align:top;
-        padding: 50px;
-        padding: right 50px;
+        padding-top: 100px;
+        padding-right:100px;
+        font-family: Fira Sans, sans-serif;
     }
 
 p {
     display:inline-block;
     vertical-align: top;
     max-width: 300px;
-  padding: 100px 100px;
+    padding: 20px 20px;
     font-size: 14px;
+    border-top:  100px;
+    border-top: 100px;
+    font-family: Fira Sans, sans-serif;
+    margin-left: auto;
     }
 
 button {
     display: inline-block;
-    vertical-align: bottom;
-    padding-top: 5px;
-    background-color: antiquewhite;
+    padding-top:5px;
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
     font: 12px;
+    font-family: Fira Sans, sans-serif;
 
     }
 
