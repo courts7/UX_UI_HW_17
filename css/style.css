@@ -10,6 +10,7 @@
    
     }
      .logo {
+    display: inline-block;
     width: 23%;
     padding:1%;
     display: inline-block;
