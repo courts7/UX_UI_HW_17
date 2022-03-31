@@ -1,21 +1,21 @@
-.inline-block {
-    display:inline-block;
-    vertical-align: top;
+header {
+        list-style: none;
+        background-color: #373738;
+        padding: 15px;
+    }
+header p  {
+        display: inline-block;
     }
 
-    .li {
+header li {
      display:inline-block;
-     padding-left: 40px;
-     padding-right: 40px;
-    }
-
-    .logo {
-    width: 23%;
-    padding:1%;
-    text-align: center;
-    }
-
-    .navbar {
+     padding-left: 100px;
+     padding-right:100px;
+ }
+ header ul {
+     padding: 0px 0px;
+ }
+ .navbar {
     display: inline-block;
     width: 73%;
     padding: 1%;
@@ -30,25 +30,29 @@
     }
     
     .herolmg {
-    height: 600px;
-    padding: 25px;
+    padding: 100px 25px;
     }
    
     .content {
-    width: 300px;
-    margin: 0 auto;
+    max-width:300px;
+    margin: 0auto;
+    padding: 50px;
+    text-align:center;
     }
+    button {
+        padding: 20px;
+    }
+footer {
+    list-style: none;
+}
 
-    .footer {
+footer ul {
         background-color: #373738;
-}
-.ul footer {
-    display:inline-block;
-    vertical-align: top;
+        vertical-align: bottom;
+        list-style: none;
+    }
+footer li{
+    display: inline-block;
+    padding: 0px 5px;
 }
 
-img {
-    display: inline-block;
-    height: 100px;
-    padding:0px;
-}
