@@ -1,29 +1,28 @@
- .inline-block {
+.inline-block {
     display:inline-block;
     vertical-align: top;
     }
 
     .li {
      display:inline-block;
-     padding: 40px;
-     margin: 20px;
-   
+     padding-left: 40px;
+     padding-right: 40px;
     }
-     .logo {
-    display: inline-block;
+
+    .logo {
     width: 23%;
     padding:1%;
-    display: inline-block;
+    text-align: center;
     }
 
     .navbar {
     display: inline-block;
-    vertical-align:left;
     width: 73%;
     padding: 1%;
+    vertical-align:left;
     }
 
-     .ul {
+    .ul {
     display:inline-block;
     width: 50%;
     margin-left:auto;
@@ -36,12 +35,20 @@
     }
    
     .content {
-    width: 500px;
+    width: 300px;
     margin: 0 auto;
     }
-    
-footer ul {
+
+    .footer {
+        background-color: #373738;
+}
+.ul footer {
     display:inline-block;
     vertical-align: top;
-    padding: 1px;
+}
+
+img {
+    display: inline-block;
+    height: 100px;
+    padding:0px;
 }
