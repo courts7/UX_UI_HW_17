@@ -1,58 +1,89 @@
+body{
+    margin: 0%;
+
+}
+
 header {
         list-style: none;
         background-color: #373738;
-        padding: 15px;
+        vertical-align: top;
+        padding: 5px;
     }
-header p  {
+header ul {
         display: inline-block;
+        padding: 20px 10px 20px 20px;
+        vertical-align: top;
     }
 
-header li {
-     display:inline-block;
-     padding-left: 100px;
-     padding-right:100px;
- }
- header ul {
-     padding: 0px 0px;
- }
- .navbar {
-    display: inline-block;
-    width: 73%;
-    padding: 1%;
-    vertical-align:left;
+    header li {
+        display:inline-block;
+        padding: 5px 10px 10px 10px;
     }
 
-    .ul {
-    display:inline-block;
-    width: 50%;
-    margin-left:auto;
-    padding: 30px;
+    header p  {
+        display: inline-block;
+        vertical-align: top;
     }
+
+ .logo {
+     display: inline-block;
+     height:25%;
+     width: 20%;
+ }
     
-    .herolmg {
-    padding: 100px 25px;
+.herolmg {
+    padding: 300px;
+    background-color:gray;
+    vertical-align: center;
     }
-   
-    .content {
-    max-width:300px;
-    margin: 0auto;
-    padding: 50px;
-    text-align:center;
+.content {
+    max-width: 300px;
+        margin: 0;
+        text-align:center;
+        padding: 50px;
+        }
+
+h1 {
+        display: inline-block;
+        vertical-align:top;
+        padding: 50px;
+        padding: right 50px;
     }
-    button {
-        padding: 20px;
+
+p {
+    display:inline-block;
+    vertical-align: top;
+    max-width: 300px;
+  padding: 100px 100px;
+    font-size: 14px;
     }
-footer {
+
+button {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-top: 5px;
+    background-color: antiquewhite;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font: 12px;
+
+    }
+
+    footer {
     list-style: none;
+    background-color: #373738;
+    padding: 5px;
 }
 
 footer ul {
         background-color: #373738;
-        vertical-align: bottom;
         list-style: none;
+        padding: 20px; 
     }
-footer li{
-    display: inline-block;
-    padding: 0px 5px;
+
+    footer li {
+display: inline-block;
+padding: 10px 10px 10px 10px;
 }
 
